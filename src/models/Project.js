@@ -25,8 +25,6 @@ const projectSchema = new mongoose.Schema(
     // Extra free-form tech labels (quick overrides)
     extraTech: { type: [String], default: [] },
 
-    tags: { type: [String], default: [] },
-
     image: { type: String, default: null }, // cover image
     gallery: { type: [String], default: [] }, // screenshot URLs
 

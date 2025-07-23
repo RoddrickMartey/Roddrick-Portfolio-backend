@@ -21,8 +21,6 @@ export const createProjectSchema = Joi.object({
     .optional(),
   extraTech: Joi.array().items(Joi.string().trim().min(1)).optional(),
 
-  tags: Joi.array().items(Joi.string().trim().min(1)).optional(),
-
   image: Joi.string().uri().allow(null, "").optional(),
   gallery: Joi.array().items(Joi.string().uri()).optional(),
 
@@ -46,8 +44,6 @@ export const updateProjectSchema = Joi.object({
     .items(Joi.string().custom(isObjectId, "objectId"))
     .optional(),
   extraTech: Joi.array().items(Joi.string().trim().min(1)).optional(),
-
-  tags: Joi.array().items(Joi.string().trim().min(1)).optional(),
 
   image: Joi.string().uri().allow(null, "").optional(),
   gallery: Joi.array().items(Joi.string().uri()).optional(),

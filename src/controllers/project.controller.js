@@ -42,7 +42,7 @@ export async function createProject(req, res, next) {
     }
 
     if (cleaned.extraTech) cleaned.extraTech = uniqStrings(cleaned.extraTech);
-    if (cleaned.tags) cleaned.tags = uniqStrings(cleaned.tags);
+
     if (cleaned.gallery) cleaned.gallery = uniqStrings(cleaned.gallery);
 
     const doc = await Project.create(cleaned);
@@ -120,7 +120,7 @@ export async function updateProject(req, res, next) {
     const cleaned = sanitize(req.body);
 
     if (cleaned.extraTech) cleaned.extraTech = uniqStrings(cleaned.extraTech);
-    if (cleaned.tags) cleaned.tags = uniqStrings(cleaned.tags);
+
     if (cleaned.gallery) cleaned.gallery = uniqStrings(cleaned.gallery);
 
     const doc = await Project.findByIdAndUpdate(id, cleaned, {
@@ -185,10 +185,7 @@ export async function patchProject(req, res, next) {
       ]);
       doc.extraTech = [...set];
     }
-    if (Array.isArray(cleaned.tags)) {
-      const set = new Set([...doc.tags, ...uniqStrings(cleaned.tags)]);
-      doc.tags = [...set];
-    }
+
     if (Array.isArray(cleaned.gallery)) {
       const set = new Set([...doc.gallery, ...uniqStrings(cleaned.gallery)]);
       doc.gallery = [...set];
