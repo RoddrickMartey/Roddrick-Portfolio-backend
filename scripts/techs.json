@@ -1,0 +1,242 @@
+[
+  {
+    "name": "React",
+    "slug": "react",
+    "category": "frontend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "website": "https://react.dev",
+    "color": "#61dafb"
+  },
+  {
+    "name": "React Router",
+    "slug": "react-router",
+    "category": "frontend",
+    "icon": null,
+    "website": "https://reactrouter.com",
+    "color": "#CA4245"
+  },
+  {
+    "name": "Redux Toolkit",
+    "slug": "redux-toolkit",
+    "category": "frontend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    "website": "https://redux-toolkit.js.org",
+    "color": "#764ABC"
+  },
+  {
+    "name": "ShadCN UI",
+    "slug": "shadcn-ui",
+    "category": "frontend",
+    "icon": null,
+    "website": "https://ui.shadcn.com",
+    "color": "#000000"
+  },
+  {
+    "name": "Radix UI",
+    "slug": "radix-ui",
+    "category": "frontend",
+    "icon": null,
+    "website": "https://www.radix-ui.com",
+    "color": "#11181C"
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "category": "frontend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    "website": "https://tailwindcss.com",
+    "color": "#38BDF8"
+  },
+  {
+    "name": "Framer Motion",
+    "slug": "framer-motion",
+    "category": "frontend",
+    "icon": null,
+    "website": "https://www.framer.com/motion",
+    "color": "#0055FF"
+  },
+  {
+    "name": "Lucide React",
+    "slug": "lucide-react",
+    "category": "frontend",
+    "icon": null,
+    "website": "https://lucide.dev",
+    "color": "#000000"
+  },
+  {
+    "name": "Vite",
+    "slug": "vite",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg",
+    "website": "https://vitejs.dev",
+    "color": "#646CFF"
+  },
+  {
+    "name": "HTML5",
+    "slug": "html5",
+    "category": "frontend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "website": "https://developer.mozilla.org/docs/Web/HTML",
+    "color": "#E34F26"
+  },
+  {
+    "name": "CSS3",
+    "slug": "css3",
+    "category": "frontend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "website": "https://developer.mozilla.org/docs/Web/CSS",
+    "color": "#1572B6"
+  },
+  {
+    "name": "JavaScript",
+    "slug": "javascript",
+    "category": "language",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "website": "https://developer.mozilla.org/docs/Web/JavaScript",
+    "color": "#F7DF1E"
+  },
+  {
+    "name": "TypeScript",
+    "slug": "typescript",
+    "category": "language",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "website": "https://www.typescriptlang.org",
+    "color": "#3178C6"
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "category": "backend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "website": "https://nodejs.org",
+    "color": "#339933"
+  },
+  {
+    "name": "Express",
+    "slug": "express",
+    "category": "backend",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "website": "https://expressjs.com",
+    "color": "#000000"
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "category": "database",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "website": "https://www.mongodb.com",
+    "color": "#47A248"
+  },
+  {
+    "name": "Mongoose",
+    "slug": "mongoose",
+    "category": "database",
+    "icon": null,
+    "website": "https://mongoosejs.com",
+    "color": "#880000"
+  },
+  {
+    "name": "JWT",
+    "slug": "jwt",
+    "category": "security",
+    "icon": null,
+    "website": "https://jwt.io",
+    "color": "#000000"
+  },
+  {
+    "name": "bcrypt",
+    "slug": "bcrypt",
+    "category": "security",
+    "icon": null,
+    "website": "https://github.com/kelektiv/node.bcrypt.js",
+    "color": "#33AADD"
+  },
+  {
+    "name": "Axios",
+    "slug": "axios",
+    "category": "tool",
+    "icon": null,
+    "website": "https://axios-http.com",
+    "color": "#5A29E4"
+  },
+  {
+    "name": "PNPM",
+    "slug": "pnpm",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg",
+    "website": "https://pnpm.io",
+    "color": "#F69220"
+  },
+  {
+    "name": "NPM",
+    "slug": "npm",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+    "website": "https://www.npmjs.com",
+    "color": "#CB3837"
+  },
+  {
+    "name": "Yarn",
+    "slug": "yarn",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
+    "website": "https://yarnpkg.com",
+    "color": "#2C8EBB"
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "website": "https://git-scm.com",
+    "color": "#F05032"
+  },
+  {
+    "name": "GitHub",
+    "slug": "github",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "website": "https://github.com",
+    "color": "#181717"
+  },
+  {
+    "name": "GitHub Actions",
+    "slug": "github-actions",
+    "category": "devops",
+    "icon": null,
+    "website": "https://github.com/features/actions",
+    "color": "#2088FF"
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "category": "devops",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "website": "https://www.docker.com",
+    "color": "#2496ED"
+  },
+  {
+    "name": "ESLint",
+    "slug": "eslint",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
+    "website": "https://eslint.org",
+    "color": "#4B32C3"
+  },
+  {
+    "name": "Prettier",
+    "slug": "prettier",
+    "category": "tool",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-original.svg",
+    "website": "https://prettier.io",
+    "color": "#F7B93E"
+  },
+  {
+    "name": "Jest",
+    "slug": "jest",
+    "category": "test",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+    "website": "https://jestjs.io",
+    "color": "#C21325"
+  }
+]
