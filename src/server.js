@@ -26,8 +26,10 @@ setupLogging(app, { env: process.env.NODE_ENV });
 app.use(helmet()); // Secure HTTP headers
 app.use(
   cors({
-    origin: CLIENT_URL || "*",
-    credentials: true,
+    origin: CLIENT_URL, // Only your Vercel site
+    credentials: true, // Allow cookies/headers
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 app.use(cookieParser());
