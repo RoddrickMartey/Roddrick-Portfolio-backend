@@ -14,8 +14,8 @@ export function setTokenCookie(res, payload) {
   const token = signToken(payload);
   res.cookie("token", token, {
     httpOnly: true,
-    secure: NODE_ENV === "production",
-    sameSite: "strict",
+    secure: NODE_ENV === "production", // Only send over HTTPS
+    sameSite: NODE_ENV === "production" ? "None" : "Lax", // "None" for cross-site
     maxAge: 4 * 60 * 60 * 1000, // 4 hours
   });
 }

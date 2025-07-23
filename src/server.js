@@ -26,12 +26,14 @@ setupLogging(app, { env: process.env.NODE_ENV });
 app.use(helmet()); // Secure HTTP headers
 app.use(
   cors({
-    origin: CLIENT_URL, // Only your Vercel site
-    credentials: true, // Allow cookies/headers
+    origin: CLIENT_URL,
+    credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 204, // Ensure preflight success
   })
 );
+
 app.use(cookieParser());
 
 // ✅ 2. Body Parsing
